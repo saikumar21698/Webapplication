@@ -6,7 +6,7 @@ agent any
 
   stage('CheckOutCode'){
     steps{
-      git url: 'https://github.com/saikumar21698/Webapplication.git'
+      git 'https://github.com/saikumar21698/Webapplication.git'
     }
   }
   }
